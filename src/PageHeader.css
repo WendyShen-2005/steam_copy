@@ -20,4 +20,41 @@
     background: rgb(59,100,145);
     background: linear-gradient(90deg, rgba(59,100,145,1) 0%, rgba(15,33,110,1) 100%);
     box-shadow: 0 0 5px 0px;
+    margin-bottom: 22px;
+}
+#games-nav {
+    display: inline;
+    color: var(--dark-medium-grey);
+    font-size: 13px;
+}
+#games-nav p {
+    margin: 0 5px;
+    display: inline;
+}
+#games-nav a {
+    color: var(--medium-grey);
+    text-decoration: none;
+}
+#games-nav a:hover {
+    color: var(--light-grey);
+}
+#title-and-community {
+    margin: 5px 0px;
+}
+#title-and-community h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+}
+#title-and-community button {
+    color: var(--bright-blue);
+    border: none;
+    background-color: var(--button-light-blue);
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+#title-and-community button:hover {
+    background-color: var(--bright-blue);
+    color: white;
 }
