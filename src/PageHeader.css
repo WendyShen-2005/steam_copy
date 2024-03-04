@@ -1,0 +1,23 @@
+.page-header{
+    margin: 75px;
+}
+.page-header div {
+    display: flex;
+    justify-content: space-between;
+}
+.text-button1 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 0 0 4px black;
+}
+.text-button1:hover {
+    background: linear-gradient(90deg, var(--bright-blue) 0%, transparent 100%);
+}
+#other-nav-bar {
+    background: rgb(59,100,145);
+    background: linear-gradient(90deg, rgba(59,100,145,1) 0%, rgba(15,33,110,1) 100%);
+    box-shadow: 0 0 5px 0px;
+}
