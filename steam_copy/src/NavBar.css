@@ -1,0 +1,45 @@
+:root {
+    --dark-blue: rgb(23,29,37);
+    --light-grey: rgb(220,222,187);
+    --bright-blue: rgb(26,159,255);
+    --medium-grey: rgb(103,112,123);
+}
+
+.NavBar {
+    padding: 10px;
+    background-color: var(--dark-blue);
+    margin: 0;
+    border: solid --light-grey 1px;
+}
+.NavBar div {
+    display: flex;
+}
+.text-button {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 6px 12px;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    border: none;
+    padding: 1px 0;
+}
+.text-button:hover {
+    color: white;
+}
+#link-copy {
+    color: var(--medium-grey);
+    font-size: 12px;
+    display: flex;
+    padding: 3px 15px;
+    background-color: var(--dark-blue);
+    border: none;
+}
+#link-copy:hover {
+    background-color: rgb(35,38,46);
+    color: var(--light-grey);
+    border-radius: 20px;
+}
+#selected {
+    color: var(--bright-blue);
+    border-bottom: solid var(--bright-blue) 3px;
+}
