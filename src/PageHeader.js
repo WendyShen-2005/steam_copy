@@ -3,7 +3,10 @@ import './PageHeader.css';
 const PageHeader = () => {
     return ( 
         <div className="page-header">
-            <button>Wishlist</button>
+
+            <div id='wishlist'>
+                <button>Wishlist</button>
+            </div>
 
             <div id="other-nav-bar">
                 <div>

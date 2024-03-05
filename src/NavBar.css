@@ -7,16 +7,16 @@
 .NavBar div {
     display: flex;
 }
-.text-button {
+.text-button button {
     font-size: 17px;
     font-weight: 600;
     margin: 6px 12px;
     background-color: var(--dark-blue);
     color: var(--light-grey);
     border: none;
-    padding: 1px 0;
+    padding: 10px 0;
 }
-.text-button:hover {
+.text-button button:hover {
     color: white;
 }
 #link-copy {
@@ -32,7 +32,23 @@
     color: var(--light-grey);
     border-radius: 20px;
 }
-#selected {
+#selected button {
     color: var(--bright-blue);
     border-bottom: solid var(--bright-blue) 3px;
+}
+.drop-down{
+    margin-top: 10px;
+}
+.drop-down a {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    background-color: var(--medium-grey);
+    color: var(--light-grey);
+}
+.drop-down a:hover {
+    background-color: var(--light-grey);
+    color: var(--medium-grey);
 }
