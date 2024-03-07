@@ -10,47 +10,39 @@ const NavBar = () => {
                 <button className='icon'>Forward</button>
 
                 <div id='selected'>
-                    <TextButton title='STORE'> 
-                        <DropDown>
-                            <a>Featured</a>
-                            <a>Discovery Queue</a>
-                            <a>Wishlist</a>
-                            <a>Points Shop</a>
-                            <a>News</a>                        
-                            <a>Stats</a>
-                        </DropDown>
+                    <TextButton class='text-button' dropdownClass='drop-down' title='STORE'> 
+                        <a>Featured</a>
+                        <a>Discovery Queue</a>
+                        <a>Wishlist</a>
+                        <a>Points Shop</a>
+                        <a>News</a>                        
+                        <a>Stats</a>
                     </TextButton>
                 </div>
 
-                <TextButton title='LIBRARY'> 
-                    <DropDown>
-                        <a>Home</a>
-                        <a>Collections</a>
-                        <a>Downloads</a>
-                    </DropDown>
+                <TextButton class='text-button' dropdownClass='drop-down' title='LIBRARY'> 
+                    <a>Home</a>
+                    <a style={{borderBottom: "solid var(--light-grey) 1px"}}>Collections</a>
+                    <a>Downloads</a>
                 </TextButton>
 
-                <TextButton title='COMMUNITY'>
-                    <DropDown>
-                        <a>Home</a>
-                        <a>Discussions</a>
-                        <a>Workshops</a>
-                        <a>Market</a>
-                        <a>Broadcasts</a>
-                    </DropDown>
+                <TextButton class='text-button' dropdownClass='drop-down' title='COMMUNITY'>
+                    <a>Home</a>
+                    <a>Discussions</a>
+                    <a>Workshops</a>
+                    <a>Market</a>
+                    <a>Broadcasts</a>
                 </TextButton>
 
-                <TextButton title='WENDYSHEN2005'>
-                    <DropDown>
-                        <a>Activity</a>
-                        <a>Profile</a>
-                        <a>Friends</a>
-                        <a>Groups</a>
-                        <a>Content</a>
-                        <a>Badges</a>
-                        <a>Inventory</a>
-                        <a>Year In Review</a>
-                    </DropDown>
+                <TextButton class='text-button' dropdownClass='drop-down' title='WENDYSHEN2005'>
+                    <a>Activity</a>
+                    <a>Profile</a>
+                    <a>Friends</a>
+                    <a>Groups</a>
+                    <a>Content</a>
+                    <a>Badges</a>
+                    <a>Inventory</a>
+                    <a>Year In Review</a>
                 </TextButton>
 
             </div>

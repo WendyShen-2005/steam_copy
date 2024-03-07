@@ -1,15 +1,12 @@
-import { useState } from "react";
-import './DropDown.css';
+import React from "react";
 
-const DropDown = (props) => {
-
-    // see if this drop down is openned
+const DropDown = React.forwardRef((props, ref) => {
 
     return ( 
-        <div className="drop-down">
+        <div className={props.class} ref={ref}>
             {props.children}
         </div>
      );
-}
+})
  
 export default DropDown;

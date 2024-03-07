@@ -38,6 +38,9 @@
 }
 .drop-down{
     margin-top: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 .drop-down a {
     margin: 0;
