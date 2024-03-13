@@ -8,7 +8,7 @@ const GameInfo = () => {
             <div style={{display:"flex"}}>
                 <div id="game-pictures">
                     <img src={screenshot_1} alt="game"/>
-                    <img alt="list of other game pics"/>
+                    <img alt="list of other game pics nope"/>
                 </div>
                 <div id="description">
                     <img src={terrariaBanner} alt="terraria banner"/>
