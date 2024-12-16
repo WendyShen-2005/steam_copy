@@ -1,7 +1,8 @@
 import './App.css';
-import NavBar from './NavBar';
-import PageHeader from './PageHeader';
-import GameInfo from './GameInfo';
+import GameInfo from './components/GameInfo';
+import NavBar from './components/NavBar';
+import PageHeader from './components/PageHeader';
+
 
 function App() {
   return (

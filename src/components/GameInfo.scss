@@ -1,0 +1,28 @@
+.stats {
+    padding: 15px 25px;
+    background-color: rgba(105, 138, 199, 0.2);
+    
+    p {
+        color: grey;
+        margin: 0;
+    }
+
+    div {
+        margin-right: 25px;
+        .blue {
+            color: rgb(0, 149, 255);
+        }
+    }
+}
+
+.pop-tags {
+    button {
+        background-color: rgba(0, 179, 255, 0.369);
+        color: rgb(0, 187, 255);
+        border: none;
+        padding: 2px 5px;
+        margin-right: 5px;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+}
