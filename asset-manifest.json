@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/steam_copy/static/css/main.f16ba2c6.css",
+    "main.js": "/steam_copy/static/js/main.6363825c.js",
+    "static/js/453.abb9a881.chunk.js": "/steam_copy/static/js/453.abb9a881.chunk.js",
+    "index.html": "/steam_copy/index.html",
+    "main.f16ba2c6.css.map": "/steam_copy/static/css/main.f16ba2c6.css.map",
+    "main.6363825c.js.map": "/steam_copy/static/js/main.6363825c.js.map",
+    "453.abb9a881.chunk.js.map": "/steam_copy/static/js/453.abb9a881.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f16ba2c6.css",
+    "static/js/main.6363825c.js"
+  ]
+}
